@@ -425,7 +425,8 @@ img {
   transition: all 0.3s ease-in;
 }
 
-.socials__link:hover {
+.socials__link:hover,
+.socials__link:focus {
   color: var(--main-bg-color);
   background-color: var(--accent-color);
 }
@@ -454,7 +455,8 @@ img {
   transition: all 0.3s ease-in;
 }
 
-.clients__link:hover {
+.clients__link:hover,
+.clients__link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
